@@ -13,6 +13,6 @@ class BladeExpressionTest extends AbstractBladeTestCase
     {
         $this->assertEquals('<html <?php echo e($foo); ?>>', $this->compiler->compileString('<html {{ $foo }}>'));
         $this->assertEquals('<html<?php echo e($foo); ?>>', $this->compiler->compileString('<html{{ $foo }}>'));
-        $this->assertEquals('<html <?php echo e($foo); ?> <?php echo app(\'translator\')->getFromJson(\'foo\'); ?>>', $this->compiler->compileString('<html {{ $foo }} @lang(\'foo\')>'));
+        $this->assertEquals('<html <?php echo e($foo); ?> <?php echo app(\'translator\')->get(\'foo\'); ?>>', $this->compiler->compileString('<html {{ $foo }} @lang(\'foo\')>'));
     }
 }
