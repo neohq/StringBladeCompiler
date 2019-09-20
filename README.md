@@ -13,7 +13,7 @@ Versions
 =======================
 | String Blade  | Laravel Version | 
 | ------------- |----------------:|
-| 3.8.1         | Laravel 6.0     |
+| 3.8.2         | Laravel 6.0     |
 | 3.8           | Laravel 5.8     |
 | 3.7           | Laravel 5.7     |
 | 3.6           | Laravel 5.6     |
@@ -24,7 +24,7 @@ Versions
 | 2.*           | Laravel 5       |
 | 1.*           | Laravel 4.2     |
 
-Version 3.8.1 : Updates
+Version 3.8.2 : Updates
 =======================
 > Update code to Laravel 6.0
 
