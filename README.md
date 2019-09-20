@@ -1,6 +1,6 @@
 String Blade Compiler
 =======================
-[![Laravel 5.8](https://img.shields.io/badge/Laravel-5.8-orange.svg?style=flat-square)](http://laravel.com)
+[![Laravel 6.0](https://img.shields.io/badge/Laravel-6.0-orange.svg?style=flat-square)](http://laravel.com)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 Render Blade templates from string value.
@@ -13,6 +13,7 @@ Versions
 =======================
 | String Blade  | Laravel Version | 
 | ------------- |----------------:|
+| 3.8.1         | Laravel 6.0     |
 | 3.8           | Laravel 5.8     |
 | 3.7           | Laravel 5.7     |
 | 3.6           | Laravel 5.6     |
@@ -22,6 +23,10 @@ Versions
 | 3.2           | Laravel 5.1     |
 | 2.*           | Laravel 5       |
 | 1.*           | Laravel 4.2     |
+
+Version 3.8.1 : Updates
+=======================
+> Update code to Laravel 6.0
 
 Version 3.8 : Updates
 =======================
